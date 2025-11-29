@@ -1,0 +1,367 @@
+        body {
+    font-family: 'roboto', sans-serif;
+    background-color: hsla(304, 30%, 79%, 0.6);
+    margin: 0 auto;
+    width: 120%;
+    overflow-x: auto;
+}
+.navbar {
+    background-color: #552B48;
+    height: 140px;
+    padding: 10px 15px;
+}
+.navbar-nav{flex:1; justify-content: space-around;font-size: 18px;font-weight:500}
+.search-box{height:50px;background-color: white;color:black; border-radius: 10px;border: none;display: flex;justify-content: center;align-items: center;background-color: lightgrey;width:300px}
+        .search-box input{position: relative;border: none;border-radius: 7px;background-color: lightgray;width:50%;margin:0;padding: 0;}
+        .search-boxi{position:absolute;transform: translateY(-30deg);pointer-events: none;}
+.container1{height:350px; background-color: #E877CF ;display:flex;justify-content: space-evenly;flex-direction: row;align-items: center;}
+        .card{flex:1;height:350px;width:100%;display: flex;justify-content: space-evenly;background-color: #E877CF;border-radius: 0; border:none;flex-direction: column;}
+        .card0{flex:1;display: flex;justify-content: center;align-items: center;}
+        .image1{height: 350px;object-fit: contain;width:auto;}
+        .button1{background-color:#552B48;width:200px;font-size: 22px;font-weight: 500;height:45px;display: inline-flex;align-items: center;justify-content: center;border-radius: 7px;margin-left: 120px;margin-bottom: 0;} 
+        .p1{font-size: 22px;font-weight: 500;padding-left: 45px;padding-right: 0;}
+         h2{font-weight: 500;padding-left: 45px;padding-top: 70px;padding-right: 280px;font-size:40px}
+        .profile{margin-left:50px;}
+    .container2 {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    background-color: rgba(6,240,252,0.5);
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.container2 > div {
+    border: 2px solid #fcd4f3;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+.container3{display: flex;flex-direction: row;width:100%;background-color: #E877CF;border-radius: 15px;justify-content: center;align-items: center;margin:5px auto;} .imgleft{flex:1;display: flex;justify-content: center;align-items: center;} .imgleft img{padding: 0;margin: 0;width:100%;max-width:450px;height: auto;object-fit: cover;} .textright{flex:1.5;padding: 0;text-align: left;padding-top: 50px;}
+footer {
+    background-color: #552B48;
+    padding: 50px 15px;
+    color: white;
+}
+.block{border-top:2px solid white;width:100%;display: flex;justify-content: space-between; align-items: center;padding: 20px;font-size: 20px;}
+.container5{display:flex;justify-content: space-around;width:80%;margin:30px} .containerb, .containerc{border:2px solid;display:flex;justify-content: flex-start;align-items: flex-start;flex-direction: column;padding: 50px;font-size: 28px;width:400px;height:350px;font-weight: 500;background-color: white;margin: 10px;border-radius: 10px;} .containera{border:2px solid;display:flex;justify-content: center;align-items: center;flex-direction: column;padding: 50px;font-size: 28px;width:400px;height:350px;font-weight: 500;background-color: white;margin: 10px;border-radius: 10px;} .star{color:gold}
+.container4 {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    width: 100%;
+    height: 1000px;
+
+    background:
+        url('images/bueaty_pr2-removebg-preview.png') left center no-repeat,
+        url('images/bueaty_pr-removebg-preview.png') right center no-repeat;
+
+    background-size: 400px auto, 400px auto;
+    padding: 0;
+    box-sizing: border-box;
+    margin-top: 50px;
+}
+
+.vertical1 {
+    background-color: rgba(3, 250, 250, 0.5);
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+
+    width: 100%;
+    max-width: 700px;
+    height: 500px;
+
+    padding-left: 70px;
+    padding-top: 50px;
+    border: 20px solid white;
+    box-sizing: border-box;
+}
+
+.subvertical2 {
+    flex: 1;
+    text-align: start;
+    padding-top:0;
+}
+.subvertical1 {flex:1;color:white;border-top:2px solid white;width:90%;padding-top:20px;}
+.vertical1 h2{font-weight: bold;font-size: 44px;padding: 0;} 
+.buttona{width:200px;height: 50px;background-color: rgb(214, 208, 208);}
+
+
+@media (max-width:600px){.container1{flex-direction: column;text-align: center;height:auto;padding: 20px 0;}.card{width:100%;padding: 0 20px;text-align: center;align-items: center;}.p1{padding-left: 0;padding-right: 0;} .h2a{padding-left: 0;padding-right: 0;}.button1{margin: 20px auto;} .image1{width: 80%;height: auto;margin-bottom: 20px;}
+.container2 {
+        display: flex !important;
+        flex-direction: row !important;
+        flex-wrap: nowrap !important;
+        overflow-x: auto !important;
+        width: 100%;
+    }
+
+    .container2 > div {
+        min-width: 250px !important;
+        max-width: 250px !important;
+        height: 250px !important;
+        flex: 0 0 auto;
+    }
+
+    .container2 img {
+        height: 250px !important;
+        object-fit: contain;
+        flex:0 0 200;
+    }
+    .container3 {
+        flex-direction: column;
+        width: 100%;
+        padding: 20px;
+        text-align: center;
+    }
+    footer ul {
+        text-align: center;
+        font-size: 14px;
+    }
+
+    footer h6 {
+        text-align: center;
+        font-size: 16px;
+    }
+
+    .block {
+        flex-direction: column;
+        text-align: center;
+        gap: 10px;
+        font-size:16px;
+    }
+    .container5{display:flex;flex-direction: column;}
+    .container4 {
+        height: auto;
+        padding: 20px 0;
+
+        background:
+            url('images/bueaty_pr2-removebg-preview.png') left top no-repeat,
+            url('images/bueaty_pr-removebg-preview.png') left bottom no-repeat;
+
+        background-size: 400px 400px;}
+        .vertical1 {
+        max-width: 95% !important;
+        width: 95% !important;
+
+        height: auto;
+        margin: 20px auto;
+
+        padding: 20px;
+        border-width: 10px;
+    }
+     .vertical1 h2 {
+        font-size: 28px !important;
+        text-align: left;
+        line-height: 1.3;
+    }
+     .vertip {
+        font-size: 16px !important;
+    }
+    .subvertical1 {
+        width: 100%;
+        padding-top: 15px;
+    }
+     .subvertical1 p {
+        font-size: 20px !important;
+    }
+    .buttona {
+        width: 180px;
+        height: 45px;
+        font-size: 18px !important;
+        margin-top: 10px;
+    }
+    .buttona a {
+        font-size: 18px !important;
+    }
+    .navbar-toggler {
+        width: 35px !important;
+        height: 32px !important;
+        padding: 2px 5px !important;
+    }
+    .navbar-toggler-icon {
+        width: 18px !important;
+        height: 18px !important;
+        background-size: 18px 18px !important;
+    }
+
+.search-box {
+    display: none;
+}
+
+.search-box input {
+    width: 80%;      
+}
+
+.profile img {
+    width: 40px;       
+    height: auto;
+    border-radius: 50%;
+    margin: 10px 0;
+}
+
+ body {
+        width: 100%;
+        overflow-x: hidden;
+    }  
+    .navbar-collapse .nav-link {
+    color: #000 !important;
+} 
+}
+@media (min-width: 601px) and (max-width: 1024px) {
+.container1 {
+        flex-direction: row;
+        height:700px;
+        padding: 0;
+    }
+
+    .card {
+        width: 100%;
+        text-align: left;
+        padding: 0;
+        margin: 0;
+    }
+
+    .image1 {
+        width: 100%;
+        height: 100%;
+        padding-top:50px;
+        padding-bottom: 0;
+    }
+.container2 {
+        display: grid !important;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 15px;
+        width: 95%;
+        margin: auto;
+    }
+
+    .container2 > div {
+        height: 300px;
+    }
+
+    .container2 img {
+        height: 300px;
+        object-fit: cover;
+    }
+    .container3 {
+        flex-direction: row;
+        width: 95%;
+        margin: auto;
+    }
+.container4 {
+        height: auto;
+        background:
+            url('images/bueaty_pr2-removebg-preview.png') left center no-repeat,
+            url('images/bueaty_pr-removebg-preview.png') right center no-repeat;
+        background-size: 250px auto, 250px auto;
+    }
+    .vertical1 {
+        max-width: 80%;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    .vertical1 h2 {
+        font-size: 32px;
+    }
+
+    .subvertical1 p {
+        font-size: 22px;
+    }
+    .container5{display:flex;flex-direction: column;align-items: center;justify-content: center;}
+    footer {
+        padding: 40px 20px;
+        text-align: left;
+    }
+
+    footer .row {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        gap: 20px;
+    }
+
+    footer h6 {
+        font-size: 22px;
+        margin-bottom: 15px;
+        padding-left: 0 !important;
+    }
+
+    footer ul {
+ font-size: 16px;
+        line-height: 1.8;
+        padding-left: 0;
+    }
+
+    footer .col-md-3 {
+        flex: 0 0 45%;  
+         max-width: 45%;
+    }
+ footer .col-md-3:last-child {
+        flex: 0 0 100%;   
+        max-width: 100%;
+        margin-top: 20px;
+    }
+     footer .card1,
+    footer .card2,
+    footer .card3 {
+        align-items: flex-start !important;
+        gap: 10px;
+    }
+
+    footer .card1 p,
+    footer .card2 p,
+    footer .card3 p {
+        font-size: 16px;
+    }
+    .block {
+        margin-top: 20px;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        font-size: 16px;
+    }
+    .block img {
+        width: 180px;
+        margin: 10px auto;
+    }
+    .search-box {
+    display: none;
+}
+.navbar-collapse .nav-link {
+    color: #000 !important;
+}
+}
+@media (min-width: 1025px) {
+
+    .container1 {
+        height: 350px;
+    }
+
+    .container2 {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        max-width: 1200px;
+        margin: auto;
+    }
+    .container4 {
+        background:
+            url('images/bueaty_pr2-removebg-preview.png') left center no-repeat,
+            url('images/bueaty_pr-removebg-preview.png') right center no-repeat;
+        background-size: 400px auto, 400px auto;
+        height: 1000px;
+    }
+
+    .vertical1 {
+        max-width: 700px;
+        padding: 50px 70px;
+    }
+}

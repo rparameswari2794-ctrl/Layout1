@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+        body {
+    font-family: 'roboto', sans-serif;
+    background-color:hsla(304, 30%, 79%, 0.6);
+    margin: 0 auto;
+    width: 120%;
+    overflow-x: auto;
+}
+.navbar {
+    background-color: #552B48;
+    height: 140px;
+    padding: 10px 15px;
+}
+.navbar-nav{flex:1; justify-content: space-around;font-size: 18px;font-weight:500}
+.search-box{height:50px;background-color: white;color:black; border-radius: 10px;border: none;display: flex;justify-content: center;align-items: center;background-color: lightgrey;width:300px}
+        .search-box input{position: relative;border: none;border-radius: 7px;background-color: lightgray;width:50%;margin:0;padding: 0;}
+        .search-boxi{position:absolute;transform: translateY(-30deg);pointer-events: none;}
+footer {
+    background-color: #552B48;
+    padding: 50px 15px;
+    color: white;
+}
+.block{border-top:2px solid white;width:100%;display: flex;justify-content: space-between; align-items: center;padding: 20px;font-size: 20px;}
+#contact{background-color: rgba(248, 80, 220, 0.6);}
+h2{text-align: center;margin-top: 50px;margin-bottom: 10px;font-weight: 700;}
+section{margin:20px;display:flex;justify-content: space-evenly;}
+form{padding: 10px;margin:10px;font-size: 22px;}
+form input{border:none;border-bottom: 2px solid;background-color:hsla(304, 30%, 79%, 0.1);}
+form textarea{border: none;border-bottom: 2px solid;background-color:hsla(304, 30%, 79%, 0.1);resize: none;}
+button{width:150px;height: 50px;background-color: blue;color: white;border: none;border-radius: 5px;}
+.card{width:100%;display: flex;justify-content: space-evenly;flex-direction: row;margin-bottom: 30px;background-color:hsla(304, 30%, 79%, 0.1);border: none;gap:10px;}
+@media (max-width:600px){footer ul {
+        text-align: center;
+        font-size: 14px;
+    }
+
+    footer h6 {
+        text-align: center;
+        font-size: 16px;
+    }
+
+    .block {
+        flex-direction: column;
+        text-align: center;
+        gap: 10px;
+        font-size:16px;
+    }.navbar-toggler {
+        width: 35px !important;
+        height: 32px !important;
+        padding: 2px 5px !important;
+    }
+    .navbar-toggler-icon {
+        width: 18px !important;
+        height: 18px !important;
+        background-size: 18px 18px !important;
+    }
+
+.search-box {
+    display: none;
+}
+
+.search-box input {
+    width: 80%;      
+}
+
+.profile img {
+    width: 40px;       
+    height: auto;
+    border-radius: 50%;
+    margin: 10px 0;
+}
+
+ body {
+        width: 100%;
+        overflow-x: hidden;
+    } 
+.card{
+    display: flex;
+    flex-direction: column;
+    gap:20px;
+}
+.card input{
+    width:100%;
+}}
+    @media (min-width: 601px) and (max-width: 1024px) {footer {
+        padding: 40px 20px;
+        text-align: left;
+    }
+
+    footer .row {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        gap: 20px;
+    }
+
+    footer h6 {
+        font-size: 22px;
+        margin-bottom: 15px;
+        padding-left: 0 !important;
+    }
+
+    footer ul {
+ font-size: 16px;
+        line-height: 1.8;
+        padding-left: 0;
+    }
+
+    footer .col-md-3 {
+        flex: 0 0 45%;  
+         max-width: 45%;
+    }
+ footer .col-md-3:last-child {
+        flex: 0 0 100%;   
+        max-width: 100%;
+        margin-top: 20px;
+    }
+     footer .card1,
+    footer .card2,
+    footer .card3 {
+        align-items: flex-start !important;
+        gap: 10px;
+    }
+
+    footer .card1 p,
+    footer .card2 p,
+    footer .card3 p {
+        font-size: 16px;
+    }
+    .block {
+        margin-top: 20px;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        font-size: 16px;
+    }
+    .block img {
+        width: 180px;
+        margin: 10px auto;
+    }
+    .search-box {
+    display: none;
+}
+.navbar-toggler {
+        width: 35px !important;
+        height: 32px !important;
+        padding: 2px 5px !important;
+    }
+    .navbar-toggler-icon {
+        width: 18px !important;
+        height: 18px !important;
+        background-size: 18px 18px !important;
+    }
+.card{
+    display: flex;
+    flex-direction: column;
+    gap:20px;
+}
+.card input{
+    width:100%;
+}
+.card-img-top{
+    height: 100%;
+    width:100%;
+    object-fit: contain;
+}}
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark sticky-top text-white p-3">
+        <div class="container-fluid">
+            <a class="navbar-brand me-3" href="#"><img src="images/bueaty_lg2-removebg-preview.png" width="120"> </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                <ul class="navbar-nav ms-auto text-end">
+                    <li class="nav-item"><a class="nav-link active" href="layout.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="services.html">Services</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="portfolio.html">Portfolio</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="about.html">About Us</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="contact.html">Contact</a></li>
+                    <li class="search-box"><input type="text" placeholder="Search"><i class="fa fa-search"></i></li>
+                    <li class="profile"><a class="nav-link active" href="signup.html"><img src="images/profile icon.png" width="50"></a></li>
+                </ul>
+            </div>    
+        </div>   
+        </nav>
+        
+         <h2>CONTACT</h2>
+        <section id="contact">
+            <div class="container">
+            <div class="row">
+                <div class="col-lg-4 col-md-6 col-sm-6">
+                    <div class="div1 pt-5">
+                     <h5 style="font-weight: 700;font-size: 30px;">Address</h5>
+                     <p style="font-size: 22px;padding-top: 30px;" class="d-flex align-items-center;"><i class="fas fa-map-marker-alt" style="font-size:28px;color:black;margin-right: 10px;"></i>8-2-686/DR/9,Banjara Hills, Hyderabad, Telangana 500034</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-6">
+                    <div class="div2 pt-5">
+                        <h5 style="font-weight: 700;font-size: 30px;">Contact</h5>
+                        <p style="font-size: 22px;padding-top: 30px;" class="d-flex align-items-center;"><i class="fas fa-phone" style="color:black; font-size:24px;margin-right: 10px;"></i>Phone: 07674083778</p>
+                        <p style="font-size: 22px;" class="d-flex align-items-center;"><i class="fas fa-envelope" style="color:black; font-size:20px;margin-right: 10px;"></i>Email: Bookingmyna@Gmail.com</p>
+                        <p style="font-size: 24px;padding-left: 10px;" class="d-flex align-items-center;"><img src="images/instagram logo1.png" width="250"></p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-6">
+                    <div class="div3 pt-5">
+                        <h5 style="font-weight: 700;font-size: 30px;">Business Hours</h5>
+                        <p style="font-size: 22px;padding-top: 30px;"><i class="fa-regular fa-clock" style="color:black; font-size:24px;margin-right: 10px;"></i>Mon - Fri &nbsp;&nbsp;&nbsp;&nbsp;9:00 Am - 5:00 Pm </p>
+                        <p style="font-size: 22px;" class="d-flex align-items-center;"><i class="fa-regular fa-clock" style="color:black; font-size:24px;margin-right: 10px;"></i>Saturday &nbsp;&nbsp;&nbsp;&nbsp; 8:00 Am - 4:00 Pm </p>
+                        <p style="font-size: 22px;" class="d-flex align-items-center;"><i class="fa-regular fa-clock" style="color:black; font-size:24px;margin-right: 10px;"></i>Sunday &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Closed </p>
+                    </div>
+                </div>
+            </div>
+           </div>
+           </section>
+           <h2 style="text-align: center;margin: 10px;padding: 10px;">Reach Us</h2>
+        <section>            
+           <div class="container">
+            <div class="row">
+           <div class="col-lg-6 col-md-6 col-sm-6">
+           <form>
+            <div class="card">
+            <div class="name">
+            <label for="fname">First Name</label><br>
+            <input type="text" id="fname" required></div>
+            <div class="name">
+            <label for="lname">Last Name</label><br>
+            <input type="text" id="fname"required></div></div>
+            <label for="email">Email*</label><br>
+            <input type="email" id="email" style="width: 100%;" required><br><br>
+            <label for="message">Message</label><br>
+            <textarea id="message" name="message" row="1" column="6" style="width: 100%;" required></textarea><br><br>
+            <button type="submit">Send</button>
+           </form>
+           </div>
+           <div class="col-lg-6 col-md-6 col-sm-6">
+            <div class="card1">
+                <img src="images/map1.png" alt="map" class="card-img-top">
+            </div>            
+           </div>
+           </div>
+           </div>
+        </section>
+        <footer>
+        <div class="container ">
+            <div class="row">
+                <div class="col-md-3">
+                    <h6 style="font-size: 25px;margin-bottom: 20px;padding-left:30px;">Quick Links</h6>
+                    <ul style="font-size:18px;list-style-type: none;line-height: 2;"><li>Home</li><li>About</li><li>Services</li><li>Portfolio</li><li>Contact</li></ul>
+                </div>
+                <div class="col-md-3">
+                    <h6 style="font-size: 25px;margin-bottom: 20px;padding-left:30px;">Services</h6>
+                    <ul style="font-size: 18px;list-style-type: none ;line-height: 2;"><li>Mission</li><li>Integrations</li><li>Features</li><li>Pricing</li><li>Industries</li></ul>
+                </div>
+                <div class="col-md-3">
+                    <h6 style="font-size: 25px;margin-bottom: 20px;padding-left:30px;">Other Links</h6>
+                    <ul style="font-size: 18px;list-style-type: none;line-height: 2;"><li>Blog</li><li>Testimonials</li><li>Privacy Policy</li><li>Cancellation and Refund</li><li>Terms of Service</li></ul>
+                </div>
+                <div class="col-md-3 pe-0 me-0">
+                    <h6 style="font-size: 25px;margin-bottom: 20px;padding-left:10px;">Contact Info</h6>
+                     <div class="card1 d-flex align-items-center gap-4"><i class="fas fa-map-marker-alt" style="font-size:28px;color:white"></i><p style="font-size: 18px;">8-2-686/DR/9,Banjara Hills, Hyderabad, Telagana 500034</p></div>
+                     <div class="card2 d-flex align-items-center gap-4"><i class="fas fa-phone" style="color:white; font-size:24px;"></i><p style="font-size: 18px;line-height: 2;">+91-869-011-0011</p></div>
+                     <div class="card3 d-flex align-items-center gap-4"><i class="fas fa-envelope" style="color:white; font-size:26px;"></i><p style="font-size: 18px;line-height: 2;">bookingmyna@gmail.com</p></div>
+                </div></div>
+            <div class="col-lg d-flex justify-content-center m-3"><div class="block margin-0 auto"><p>&copy; 2008-2025 Makeover booking service. All Rights Reserved</p><p><img src="images/instagram logo.png" width="250"></p></div></div>
+        </div>
+    </footer>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+</body>
+</html>
